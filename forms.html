@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet" type="text/css" />
+
+    <title>Forms</title>
+</head>
+<body class="backwallpaper">
+
+  <nav class="topnav" id="formstop">
+
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="headings.html">Headings</a>
+    <a href="text.html">Text</a>
+    <a href="lists.html">Lists</a>
+    <a href="links.html">Links</a>
+    <a href="tables.html">Tables</a>
+    <a href="forms.html">Forms</a>
+    <a href="videos-sounds.html">Media</a>
+    <p id="websiteName">My Journey </p>
+  </nav>
+
+<div class="body">
+
+        <h2 class="titles">Forms</h2>
+
+        <!-- we use the form element and set the action attribute value to the url and method attribute value to "post". -->
+          <!-- we created a username and a password form control attributes. and adding the size and maxlength atttributes along with them -->
+          <!-- we added checkboxes and text area form controls, all which have a name attribute. the textarea uses the name attribute and the cols and row attribute to determine the size of the comments box. -->
+          <div class="column1of1">
+                <ol>
+                    <li><fieldset> <legend>Fieldset Form</legend>
+                      <form action="forms.html" method="post">
+                        
+                          <label>Username:
+                          <input type="text" name="username" id="username" required /></label> <br />
+
+                          <label>Password:
+                          <input type="password" name="password" id="pass" required /></label> <br />
+                        
+                          <input type="submit" value="Sign-In" class="submit"/>
+                      </form> </fieldset></li>
+                  
+                  
+                  
+                  <li><form action="forms.html">
+                    <p>What to improve on this webpage?</p>
+                    <textarea name="comments" cols="30" rows="4" required>Enter comments here..</textarea> 
+
+                    <input type="submit" name="" value="submit" class="submit" />
+                    <!-- name attribute on the submit button is not necessary. -->
+                  </form></li>
+                  
+                
+                  <li><p>This is an example of a checkbox form control.</p>
+                  <form action="forms.html">
+                    <p>
+                      Which one is your preferred music provider/s? Select provider/s that apply.</p>
+                      <br />
+                      <label> <input type="checkbox" name="service" value="spotify" />Spotify </label>
+
+                      <label> <input type="checkbox" name="service" value="apple music" />Apple Music </label>
+
+                      <input type="checkbox" name="service" value="soundcloud" id="soundcloud" />
+                      <label for="soundcloud"> Soundcloud </label>
+
+                      <input type="checkbox" name="service" value="youtube music" id="youtube"/>
+                      <label for="youtube"> YouTube Music </label>
+                      
+                      <input type="submit" value="submit" class="submit" />
+                  </form></li>
+                  
+                  
+                  <li><p>The example below is a radio button form control.</p>
+                  
+                    <p> What language would you like to learn first?</p> <br />
+                  <form action="forms.html">
+              
+                      <input type="radio" name="language" value="Javascript" id="javascript"/>
+                      <label for="javascript">Javascript</label>
+              
+                      <input type="radio" name="language" value="Python" id="python"/>
+                      <label for="python">Python</label>
+              
+                      <input type="radio" name="language" value="c#" id="c#" />
+                      <label for="c#">c#</label>
+              
+                      <input type="radio" name="language" value="Java" id="java"/>
+                      <label for="java">Java</label>
+                
+                      <input type="submit" value="submit" class="submit"/>    
+                  </form></li>
+              
+                
+                  <li><p>This is an example of a drop-down list control.</p>
+                      <p>What continent are you from?</p>
+                    <form action="forms.html">
+                      <!-- this is a drop-down box -->
+                    <select name="continents">
+                        <option value="asia">Asia</option>
+                        <option value="africa">Africa</option>
+                        <option value="north america">North America</option>
+                        <option value="south america">South America</option>
+                        <option value="antarctica"> Antarctica</option>
+                        <option value="europe">Europe</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                      <input type="submit" value="submit" class="submit" />
+                  </form></li>
+              
+                  
+                  <li><p>This is an example of a multiple-select box control.</p>
+                    <p>What is your favorite color/s?</p>
+                  <form action="forms.html">
+                    <!-- this is a select box where you can choose multiple options. the required attribute makes this form require the user to complete it. -->
+                    <select name="colors" size="3" multiple="multiple" required>
+                      <!-- the selected attribute is checked automatically once the page refreshes. -->
+                      <option value="red" selected>Red</option>
+                      <option value="blue">Blue</option>
+                      <option value="green">Green</option>
+                      <option value="purple" selected="selected">Purple</option>
+                      <option value="brown">Brown</option>
+                      <option value="yelllow">Yellow</option>
+                      <option value="pink">Pink</option>
+                      <option value="maroon">Maroon</option>
+                      <option value="black">Black</option>
+                      <option value="none">None</option>
+                    </select>
+                    <input type="submit" value="submit it" class="submit"/>
+                  </form></li>
+            
+                  <li><form action="forms.html" method="post">
+                    <p>This is a file input box. With a submit button.</p>
+                    <input type="file" name="file-input" />
+                    <!-- the file input has to contain a method form attribute value of post. -->
+                    <br />
+                    <input type="submit" name="" value="upload" class="submit" />
+                  </form></li>
+                  
+                  <li><form action="forms.html" method="post">
+                    <label>Subscribe to our mailing list:(example of a text input) <br />
+                    <input type="text" name="email" /></label>
+                    <input type="submit" value="subscribe" class="submit"/>
+                    <!-- a name value is not required for a submit button. -->
+                  </form></li>
+              
+                  <li><form action="forms.html" method="post">
+                    <p>Here we use an image as the submit button:</p>
+                    <input type="text" name="text-input"/>
+                    <input type="image" src="images/submit-button.png" alt="an image used as a submit button" height="15" width="50" /> 
+                  </form></li>
+              
+                  <li><form action="forms.html">
+                    <p>We use the hidden button control. We used the image element <br />and surrounded it with the button element with the link text that <br />you want displayed with the image.</p>
+                    <button>
+                      <img src="images/add_button-2.png" alt="add button" />Add
+                    </button>
+                    <input type="hidden" name="file" value="upload" />
+                  </form></li>
+            
+                  <li><form action="forms.html" method="post">
+                    <label>When were you born: <input type="date" name="born" required /></label>
+                    <input type="submit" value="submit" class="submit"/>
+                  </form></li>
+              
+                    
+                  <li><p>This is an example of an email & url input form control.</p>
+                    <form action="forms.html" class="my-form"> 
+                     <div class="form-group">
+                          <label for="email">Please enter your email address:</label>
+                          <input type="email" name="email" id="email" required/>
+                     </div> 
+                    
+                     <div class="form-group">
+                          <input type="submit" value="subscribe" class="submit"/>
+                     </div>
+                    </form>
+                      
+                    
+                  <form action="forms.html" class="my-form">
+                    <div class="form-group">
+                        <label for="url">Enter your favorite website:</label> 
+                        <input type="url" name="website" id="url" required />
+                    </div>
+                      
+                     <div class="form-group"> 
+                          <input type="submit" value="submit" class="submit"/>
+                    </div>
+                    </form></li>
+              
+                <li><p>Here we create a search input control.</p>
+                  <form action="forms.html" method="get">
+                    <label>Search: <input type="search" name="search-bar" placeholder="enter keyword.." required /></label>
+                    <input type="submit" value="search" class="submit" />
+                  </form></li>
+             </ol>
+          </div>
+
+          <a href="#formstop" class="tops">Back to the TOP!</a>
+</div>
+
+</body>
+</html>

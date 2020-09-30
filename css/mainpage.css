@@ -1,0 +1,46 @@
+/* we put a background image on the main page */
+body {
+    /* here we set the background image */
+    background-image: url("../images/roadback.jpg");
+    /* by using the cover value we resize the image to cover the entire container */
+    background-size: cover;
+}
+
+/* main page logo */
+header h1 {
+    text-transform: uppercase;
+    margin: 10px 500px 0px; /* shorthand: top, (right and left) , bottom */
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    color: white;
+    background-color: bisque;
+    letter-spacing: 8px;
+    word-spacing: 12px;
+}
+
+/* main page nav menu styling */
+nav {
+    
+    text-align: center;
+    height: 300px;
+    line-height: 20px;
+    letter-spacing:1px;
+    border-style:ridge;
+    border-width:12px;
+    padding: 20px;
+    margin: 50px auto 50px auto;
+    /* this is how you center a box by setting it to auto and margin the left and right in pixels */
+    width: 350px;
+    /* here we set the width of the box */
+    background-color:rgba(170, 161, 155, 0.7);
+    border-color: #BF1913 #80110D;
+    /* specify the border color, you can do it for each side in the order of top,right,bottom,left, or in this case the top and bottom, and the left and right.*/
+    box-shadow: 0 0 10px white;
+}
+
+/* main page footer containing the trademark */
+footer {
+    float: right;
+    margin: 15px;
+    color: white;
+}

@@ -1,0 +1,38 @@
+#audio, #videos {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px #666;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+
+#media-files{
+    
+    width: 80%;
+    margin: auto;
+}
+
+/* videos styling */
+video {
+    width: 49.5%;
+    height: 380px;
+}
+
+/* centering the audio files */
+.audiofiles {
+    width: 25%;
+    margin: auto;
+}
+
+/* here we put some space between the audio files */
+audio {
+    margin: 10px;
+}
+
+a#bensound{
+    float: right;
+    text-decoration: none;
+    padding-right: 16px;
+}
+

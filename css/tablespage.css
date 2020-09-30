@@ -1,0 +1,64 @@
+table {
+    
+    width: 600px;
+    margin: 20px auto;
+    border: 2px solid black;
+    /* here we hide the empty cells of the table */
+    empty-cells: hide;
+    /* here we collapse the cells causing the gap to close, ingoring the empty-cells property. */
+    border-collapse: collapse;
+    
+}
+
+img {
+    
+    width: 580px;
+    height: 400px;
+    margin-bottom: 12px;
+    border: 2px solid white;
+}
+
+th, td{
+    padding: 20px;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+td{
+    font-family: sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing:0.15em;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+}
+
+tr:hover,tr.even:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+tr {
+    background-color: gainsboro;
+}
+
+.points{
+    text-align: right;
+    font-size: 12px;
+}
+
+tfoot tr {
+    background-color: dodgerblue;
+}

@@ -1,0 +1,22 @@
+.sixheadings{
+    
+    text-align: center;
+    line-height: 30px;
+    border: 6px outset rgb(160, 123, 38);
+    /* here we set the width of the border, border style, and border color all in one in that order, also known as a shorthand */
+    margin:80px auto;
+    width: 350px;
+    padding: 40px;
+    background-color: rgba(191, 129, 34, 0.7);
+    box-shadow: 10px 10px 10px black;
+    /* here we set a shadow around the headings box model */
+    border-radius: 25px;
+    /* we use the property above to create rounded corners for our boxes */
+    }
+
+    img {
+        width: 330px;
+        height: 220px;
+        margin-bottom: 12px;
+        border: 2px solid black;
+    }

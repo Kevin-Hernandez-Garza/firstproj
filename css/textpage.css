@@ -1,0 +1,30 @@
+.example {
+    background: rgba(255, 160, 122, 0.8);
+}
+
+.textexamples {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 940px;
+    margin: 50px auto;
+    padding: 20px;
+    line-height: 24px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.textexamples img {
+    
+    /* we set a border for the image and add rounded corners, with the radius */
+    border: 10px solid black;
+    /* box shadow is set as horizontal, vertical lenght, blur, and spread radius, then the color */
+    box-shadow: 0px 0px 20px 8px black;
+    height: 200px;
+    width: 300px;
+    margin: 30px auto;
+}
+
+blockquote p {
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+}

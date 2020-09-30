@@ -1,0 +1,45 @@
+#aboutheading {
+    
+    text-transform: capitalize ;
+    text-align: center;
+}
+
+img.aboutpic {
+    /* here we make the img a block element and use the margin property with a value of auto to center it. */
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+#aboutme:first-letter {
+    font-size: 40px ;
+    font-family: "Times New Roman";
+    letter-spacing: 10px;
+}
+
+.info-aboutme {
+    font-size: 16px;
+    text-align: left;
+    width: 70%;
+    /* this indents the first line of text */
+    text-indent: 60px;
+    line-height: 34px;
+    padding:30px 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: black;
+    /* here we put a box around the container so it's more visible */
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+blockquote#quote {
+    /* we floated the element to the far-right and added borders to it */
+    float: right;
+    width: 25%;
+    text-align: right;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}

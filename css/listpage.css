@@ -1,0 +1,22 @@
+.frenchtoast{
+    
+    font-family: sans-serif;
+    text-align: left;
+    border: 10px inset #5CA8BF;
+    width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgba(61, 112, 128,0.3);
+    color: #000;
+    line-height:40px;
+}
+
+img {
+    
+    /* here we set the image dimensions */
+    height: 300px;
+    width: 480px;
+    display: block;
+    margin: 0px auto;
+    border: 2px solid black;
+}
