@@ -43,3 +43,7 @@ blockquote#quote {
     border-bottom: 2px solid black;
     
 }
+
+a {
+    display: inline-block;
+}
