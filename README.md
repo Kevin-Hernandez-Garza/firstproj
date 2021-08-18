@@ -8,6 +8,7 @@
 https://kevin-hernandez-garza.github.io/firstproj/
 
 ## Screenshot
+![Mockup!](./images/webpage-screenshot.png)
 
 ## Contribution
 * Made with 💜 by Kevin Hernandez
